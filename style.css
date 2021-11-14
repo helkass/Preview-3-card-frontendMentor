@@ -1,0 +1,122 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sdn {
+    background-color: white;
+}
+
+.sdn a {
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    position: relative;
+    margin-top: 20px;
+}
+
+
+.suv a {
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+    position: relative;
+    margin-top: 20px;
+}
+
+.lxy a {
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+    position: relative;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    max-width: 1440px;
+    padding: 60px;
+}
+
+.row {
+    background-color: #f0f0f0;
+}
+
+.round {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.round-a {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+h3,
+p {
+    color: white;
+}
+
+.a {
+    margin-bottom: 80px;
+}
+
+.padd {
+    padding: 50px;
+    padding-bottom: 30px;
+}
+
+.bt {
+    padding: 10px 18px;
+}
+
+span:hover a {
+    color: white;
+}
+
+.sdn:hover {
+    background-color: hsl(31, 77%, 52%) !important;
+    border: 2px solid white;
+}
+
+.suv:hover {
+    background-color: hsl(184, 100%, 22%) !important;
+    border: 2px solid white;
+}
+
+.lxy:hover {
+    background-color: hsl(179, 100%, 13%) !important;
+    border: 2px solid white;
+}
+
+/* resposive */
+
+@media only screen and (max-width: 375px) {
+    .padd {
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+
+    .round {
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0;
+    }
+
+    .round-a {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 8px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+
+    .padd {
+        padding: 15px;
+    }
+
+    .round {
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0;
+    }
+
+    .round-a {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 8px;
+    }
+}
